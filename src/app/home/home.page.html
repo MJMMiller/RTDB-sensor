@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      TEMPERATURE
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div id="wrapper">
+    <div id="termometer">
+      <div id="temperature" [style.height]="adjustedTemperature + '%'"></div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <ion-icon name="snow" id="snoww"></ion-icon>
+    <div id="number">{{ temperature }} °C</div>
+    <ion-icon name="sunny" id="sunnyy"></ion-icon>
+  </div>
+</ion-content>

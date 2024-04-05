@@ -1,0 +1,7 @@
+{
+  "name": "RTDB_Thermometer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
